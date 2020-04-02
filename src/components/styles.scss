@@ -1,0 +1,30 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: black;
+$secondary-color: white;
+body {
+  background: black;
+  font: 100% $font-stack;
+  color: $secondary-color;
+}
+
+.center{
+  margin:0;
+  text-align:center;
+  letter-spacing: .36em;
+}
+
+.back-text{
+  font-family:Impact;
+  font-size:11vw;
+  background:url("../images/loops.gif") no-repeat center;
+  background-size:cover;
+  -webkit-background-clip:text;
+  -ms-background-clip:text;
+  background-clip:text;
+  color:#000;
+  -webkit-text-fill-color:transparent;
+}
+h2 {
+  text-align: center;
+
+}
